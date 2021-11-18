@@ -1,5 +1,6 @@
 package com.example.CodePractice.DataStructureAlgorithm.Queue;
-
+import java.util.LinkedList;
+import java.util.Queue;
 
 //Queue is a FIFO data structure, a linear data structure
 //Queue is a linkedlist
@@ -7,12 +8,12 @@ package com.example.CodePractice.DataStructureAlgorithm.Queue;
 //head is the first item
 //tail is the last item
 
-//in java: poll():remove/dequeue: remove an object at the start of the queue
+/*Queue Usage
+1. Keyboard buffer (letters should appear on the screen in the order they're pressed)
+2. Printer Queue (Print jobs should be completed in order)
+3. Used in LinkedList, PriorityQueues, Breadth-first Search
+ */
 
-import java.util.LinkedList;
-import java.util.Queue;
-
-//in java: offer(): add/enqueue: add an object to the end to the queue
 public class Main {
     public static void main(String[] args){
         //cannot directly instantiate queue because queue is an Interface
@@ -20,8 +21,13 @@ public class Main {
         //Queue<String> queue = new Queue<String>();
         Queue<String> queue = new LinkedList<String>();
 
+        //in java: poll():remove/dequeue: remove an object at the start of the queue
+        //in java: offer(): add/enqueue: add an object to the end to the queue
+        //normally uses poll()/offer() but not remove()/add() althought they are similar
+        //as remove()/ add() may throw exception when out of index
+
         //add the following four person to the queue
-        //normally uses offer() but not add() althought they are similar as add() may throw exception when out of index
+
         queue.offer("Karen");
         queue.offer("Chad");
         queue.offer("Steve");
