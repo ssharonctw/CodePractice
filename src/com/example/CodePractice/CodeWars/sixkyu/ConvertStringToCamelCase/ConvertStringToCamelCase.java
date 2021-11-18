@@ -1,15 +1,7 @@
-package com.example.CodewarsPractice.sixkyu;
+package com.example.CodePractice.CodeWars.sixkyu.ConvertStringToCamelCase;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-/*
-* Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).
-
-Examples
-"the-stealth-warrior" gets converted to "theStealthWarrior"
-"The_Stealth_Warrior" gets converted to "TheStealthWarrior"
-* */
 
 public class ConvertStringToCamelCase {
     public String solution(String s){
@@ -46,3 +38,5 @@ public class ConvertStringToCamelCase {
         return m.appendTail(sb).toString();
     }
 }
+
+

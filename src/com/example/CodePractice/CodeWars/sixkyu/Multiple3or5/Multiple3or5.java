@@ -1,4 +1,4 @@
-package com.example.CodewarsPractice.sixkyu;
+package com.example.CodePractice.CodeWars.sixkyu.Multiple3or5;
 
 import java.util.stream.IntStream;
 
