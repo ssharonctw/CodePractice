@@ -130,7 +130,7 @@ public class BinarySearchTree {
             System.out.println(root.data);
         }
     }
-    
+
     //Preorder: root -> left -> right
     public void traverseTreePreorder(Node root){
         if(root!=null) {
