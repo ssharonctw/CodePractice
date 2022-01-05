@@ -5,8 +5,8 @@ package com.example.CodePractice.DataStructureAlgorithm.BinarySearchTree;
 
 //					   benefit: easy to locate a node when they are in this order
 
-//					   time complexity: best case  O(log n)
-//									 worst case O(n)
+//					   time complexity: best case  O(log n)  since each time if removes half of the tree by comparing large/small
+//									    worst case O(n)
 
 //					   space complexity: O(n)
 
