@@ -1,4 +1,5 @@
 package com.example.CodePractice.DataStructureAlgorithm.Stack;
+import java.util.*;
 //stack are LIFO data structure
 /*
 1. undo/ redo feature in text editor
@@ -8,6 +9,7 @@ package com.example.CodePractice.DataStructureAlgorithm.Stack;
  */
 public class Main {
     public static void Main(String[] args){
+        Stack<Integer> stack = new Stack<>();
         //push: add an item to the top of the stack
 
         //pop: remove an item of the top of the stack, will also return the object

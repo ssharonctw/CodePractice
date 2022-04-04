@@ -27,7 +27,9 @@ public class Main {
         //the initial capacity is the size of the hashtable, the larger, the less collision
         //the loadfactor shows the % of fill that will expand the hashtable
         Hashtable<Integer, String> table = new Hashtable<Integer, String>(10,0.75f);
-
+        int m=10; int n=10;
+        int[][] accumValue = new int[m][n];
+        accumValue[0][1]=1;
         //to add an element to the hashtable, use put
         table.put(100, "Spongebob");
         table.put(123, "Patrick");

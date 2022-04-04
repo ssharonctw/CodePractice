@@ -7,6 +7,8 @@ package com.example.CodePractice.DataStructureAlgorithm.BubbleSort;
 //				 small data set = okay-ish
 //				 large data set = BAD (plz don't)
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,10 +16,12 @@ public class Main {
         int array[] =  {9, 1, 8, 2, 7, 3, 6, 4, 5};
 
         bubbleSort(array);
-
+/*
         for(int i : array) {
             System.out.print(i);
         }
+ */
+        System.out.println(Arrays.toString(array));
     }
 
     public static void bubbleSort(int array[]) {

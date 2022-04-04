@@ -15,7 +15,7 @@ public class Main {
             linkedList.add(i);
             arrayList.add(i);
         }
-
+        Integer[] arr = arrayList.toArray(new Integer[arrayList.size()]);
         // ****************LinkedList****************
         startTime = System.nanoTime();
 

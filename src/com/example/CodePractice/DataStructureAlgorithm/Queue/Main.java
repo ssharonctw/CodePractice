@@ -1,4 +1,6 @@
 package com.example.CodePractice.DataStructureAlgorithm.Queue;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -16,7 +18,7 @@ import java.util.Queue;
 
 public class Main {
     public static void main(String[] args){
-        //cannot directly instantiate queue because queue is an Interface
+        //cannot directly instantiate queue because queue is an
         //there are 2 classes that implements queue in java collections: the LinkedList and PriorityQueue
         //Queue<String> queue = new Queue<String>();
         Queue<String> queue = new LinkedList<String>();
